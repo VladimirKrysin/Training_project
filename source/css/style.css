@@ -1,4 +1,13 @@
-body {
-  background: blue;
+.page {
+  font-family: "Oswald", "Arial", sans-serif;
+  background-color: #ffffff;
+}
+
+.page__body {
+  min-height: 100vh;
+  background-image: url(../../../img/bg.png);
+  margin: 0;
+  padding: 0;
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
