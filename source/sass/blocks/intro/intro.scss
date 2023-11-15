@@ -1,6 +1,7 @@
 .intro {
   margin: 0px;
   padding: 0px;
+  margin-bottom: 82px;
 }
 
 .intro__wrapper {
@@ -18,8 +19,43 @@
 
 .intro__title {
   margin: 0;
+  margin-bottom: 25px;
   color: #FFFFFF;
   font-size: 36px;
   font-weight: 400;
   line-height: 36px;
 }
+
+.intro__slogan {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 29px;
+}
+
+.intro__button {
+  display: inline-flex;
+  justify-content: center;
+  height: 40px;
+  align-items: center;
+  background: #68B738;
+  text-decoration: none;
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.intro__button-text {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
