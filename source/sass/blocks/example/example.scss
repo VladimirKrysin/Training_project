@@ -1,5 +1,5 @@
 .example {
-  background-color: #EAEAEA;
+  background-color: #FFFFFF;
 }
 
 .example__wrapper {
@@ -68,6 +68,68 @@
   text-align: center;
   padding-top: 14px;
   padding-bottom: 18px;
+}
 
+.example__description {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  color: #444444;
+  width: 77px;
+  text-align: center;
+  transform: translateY(-9px);
+  background-color: #FFFFFF;
+  position: relative;
+  z-index: 2;
+}
 
+.example__costs {
+  margin: 0px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.example__slider {
+  margin-top: 42px;
+}
+
+.example__img {
+  width: 311px;
+  height: 232px;
+  object-fit: cover;
+}
+
+.example__toggles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 228px;
+  margin-top: 23px;
+  margin-left: 47px;
+  margin-right: 36px;
+}
+
+.example__toggle {
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.example__slider-range {
+  width: 84px;
 }
