@@ -112,7 +112,8 @@
         <article class="products__card">
           <h3 class="products__card-name">Cat Energy PRO 1000 г</h3>
           <div class="products__card-img">
-            <img src="img/pro_fish-1000.png" width="84" height="100" alt="Продукт со вкусом рыбы Cat Enerdy 1000 грамм ">
+            <img src="img/pro_fish-1000.png" width="84" height="100"
+              alt="Продукт со вкусом рыбы Cat Enerdy 1000 грамм ">
           </div>
           <ul class="products__card-list">
             <li class="products__card-item">
@@ -202,56 +203,54 @@
           <span class="products__button-text">Заказать</span>
         </a>
         <div class="products__all">
-          <div class="products__all-img">
-            <img src="https://via.placeholder.com/150x150" alt="+">
-          </div>
-          <b class="products__all-text">Показать еще 100500 товаров</b>
-          <p class="products__all-note">На самом деле вкусов гораздо больше!</p>
-          <button class="button products__button products__button--to-all">
-            <span class="products__button-text">Показать все</span>
+          <h3 class="products__all-title">Показать еще 100500 товаров</h3>
+          <p class="products__all-text">На самом деле вкусов гораздо больше!</p>
+          <button class="products__button--to-all">
+            <span class="products__button-all-text">Показать все</span>
           </button>
         </div>
       </div>
     </section>
     <section class="additional-products">
-      <div class="additional-products__head-wrapper">
-        <h2 class="additional-products__title">Дополнительные товары</h2>
-        <img src="https://via.placeholder.com/150x150" alt="зеленая линия">
-      </div>
       <div class="additional-products__wrapper">
+        <h2 class="additional-products__title">Дополнительные товары</h2>
         <ul class="additional-products__list">
           <li class="additional-products__item">
             <h3 class="additional-products__name">Сахарозаменитель</h3>
-            <p class="additional-products__text">1 упаковка (100 г)
-              <span class="additional-products__cost">200 Р</span>
-            </p>
+            <div class="additional-products__container">
+              <p class="additional-products__text">1 упаковка (100 г)</p>
+              <p class="additional-products__cost">200 Р.</p>
+            </div>
             <a class="products__button button" href="order.html">
               <span class="products__button-text">Заказать</span>
             </a>
           </li>
           <li class="additional-products__item">
             <h3 class="additional-products__name">Питьевая вода</h3>
-            <p class="additional-products__text">5 литров
-              <span class="additional-products__cost">50 Р.</span>
-            </p>
+            <div class="additional-products__container">
+              <p class="additional-products__text">5 литров</p>
+              <p class="additional-products__cost">50 Р.</p>
+            </div>
             <a class="products__button button" href="order.html">
               <span class="products__button-text">Заказать</span>
             </a>
           </li>
           <li class="additional-products__item">
             <h3 class="additional-products__name">Молоко</h3>
-            <p class="additional-products__text">1 литр
-              <span class="additional-products__cost">100 Р</span>
-            </p>
+            <div class="additional-products__container">
+              <p class="additional-products__text">1 литр</p>
+              <p class="additional-products__cost">100 Р.</p>
+            </div>
             <a class="products__button button" href="order.html">
               <span class="products__button-text">Заказать</span>
             </a>
           </li>
           <li class="additional-products__item">
             <h3 class="additional-products__name">Витамины</h3>
-            <p class="additional-products__text">1 упаковка (30 г)
-              <span class="additional-products__cost">300 Р</span>
-            </p>
+            <div class="additional-products__container">
+              <p class="additional-products__text">1 упаковка (30 г)</p>
+              <p class="additional-products__cost">300 Р.</p>
+            </div>
             <a class="products__button button" href="order.html">
               <span class="products__button-text">Заказать</span>
             </a>
@@ -261,11 +260,13 @@
     </section>
     <section class="gift">
       <div class="gift__wrapper">
-        <h2 class="visually-hidden">Подарок за покупки</h2>
-        <img class="gift__img" src="https://via.placeholder.com/150x150" alt="подарок">
-        <p class="gift__text">Закажите все
-          и получите чехол для
-          кота в подарок!</p>
+        <div class="gift__content">
+          <h2 class="visually-hidden">Подарок за покупки</h2>
+          <img class="gift__img" src="img/gift.svg" width="78" height="80" alt="подарок">
+          <p class="gift__text">Закажите все<br>
+            и получите чехол для
+            кота в подарок!</p>
+        </div>
       </div>
     </section>
     <section class="contacts">

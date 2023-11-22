@@ -56,7 +56,7 @@
 }
 
 .products__card-term {
-  color:#444444;
+  color: #444444;
   font-family: Arial;
   font-size: 12px;
   font-weight: 400;
@@ -64,7 +64,7 @@
 }
 
 .products__card-description {
-  color:#444444;
+  color: #444444;
   font-family: Arial;
   font-size: 12px;
   font-weight: 400;
@@ -76,5 +76,42 @@
   padding-top: 6px;
   padding-bottom: 6px;
   margin-bottom: 33px;
-  
+}
+
+.products__all-title {
+  color: #111;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.products__all-text {
+  color: #444444;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.products__button--to-all {
+  background-color: #F2F2F2;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  border: none;
+}
+
+.products__button-all-text {
+  color:  #444444;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0px;
+  text-transform: uppercase;
 }

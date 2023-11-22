@@ -1,3 +1,17 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .page {
   font-family: "Oswald", "Arial", sans-serif;
   background-color: #ffffff;
@@ -564,6 +578,44 @@
   margin-bottom: 33px;
 }
 
+.products__all-title {
+  color: #111;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.products__all-text {
+  color: #444444;
+  text-align: center;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.products__button--to-all {
+  background-color: #F2F2F2;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  border: none;
+}
+
+.products__button-all-text {
+  color: #444444;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0px;
+  text-transform: uppercase;
+}
+
 .button {
   width: 100%;
   font-family: inherit;
@@ -575,5 +627,130 @@
   text-transform: uppercase;
   text-decoration: none;
   background-color: #68B738;
+}
+
+.additional-products__wrapper {
+  width: 280px;
+  margin: 0 auto;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.additional-products__title {
+  color: #000000;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 28px;
+  margin-bottom: 48px;
+  width: 226px;
+  position: relative;
+}
+.additional-products__title::after {
+  content: "";
+  position: absolute;
+  background-color: #68B738;
+  width: 100vw;
+  height: 2px;
+  top: 16px;
+  z-index: -1;
+  left: 100%;
+}
+
+.additional-products__list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.additional-products__item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 1px solid #CDCDCD;
+  border-bottom: 1px solid #CDCDCD;
+  padding-top: 13px;
+  padding-bottom: 19px;
+}
+
+.additional-products__name {
+  color: #222222;
+  text-align: left;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 13px;
+}
+
+.additional-products__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.additional-products__text {
+  color: #444444;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  margin: 0px;
+}
+
+.additional-products__cost {
+  color: #444444;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  margin: 0px;
+}
+
+.gift {
+  margin-top: 39px;
+}
+
+.gift__wrapper {
+  width: 280px;
+  margin: 0px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 35px;
+}
+
+.gift__content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 58px;
+  padding-bottom: 43px;
+  background-image: url("../../../img/gift-mobile.png");
+}
+
+.gift__text {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0px;
+  margin-top: 48px;
+  padding-left: 58px;
+  padding-right: 61px;
 }
 /*# sourceMappingURL=style.css.map */
