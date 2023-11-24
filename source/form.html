@@ -40,20 +40,32 @@
       <fieldset class="form__fieldset form-bio">
         <legend class="visually-hidden">Данные кота</legend>
         <div class="form-bio__fields">
-          <label class="form__label" for="name">ИМЯ:*</label>
-          <input class="form__input" type="text" id="name" name="name" value="Барсик" required>
-          <label class="form__label" for="weight">Вес (кг):*</label>
-          <input class="form__input" type="number" id="weight" name="weight" value="7" required>
-          <label class="form__label" for="age">Возраст (лет):</label>
-          <input class="form__input" type="number" id="age" name="age" value="7">
+          <div class="form__group">
+            <label class="form__label" for="name">ИМЯ:*</label>
+            <input class="form__input" type="text" id="name" name="name" value="Барсик" required>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="weight">Вес (кг):*</label>
+            <input class="form__input" type="number" id="weight" name="weight" value="7" required>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="age">Возраст (лет):</label>
+            <input class="form__input" type="number" id="age" name="age" value="7">
+          </div>
         </div>
         <div class="form-bio__radio-buttons">
-          <label class="form__radio-label" for="program">Похудение</label>
-          <input class="form__radio-input" type="radio" id="program" name="program" value="Похудение" checked>
-          <label class="form__radio-label" for="program">Набор массы</label>
-          <input class="form__radio-input" type="radio" id="program" name="program" value="Набор массы">
-          <label class="form__radio-label" for="program">Не знаю (Нужен ваш совет)</label>
-          <input class="form__radio-input" type="radio" id="program" name="program" value="Не знаю (Нужен ваш совет)">
+          <div class="form__group">
+            <input class="form__radio-input" type="radio" id="program" name="program" value="Похудение" checked>
+            <label class="form__radio-label" for="program">Похудение</label>
+          </div>
+          <div class="form__group">
+            <input class="form__radio-input" type="radio" id="program" name="program" value="Набор массы">
+            <label class="form__radio-label" for="program">Набор массы</label>
+          </div>
+          <div class="form__group">
+            <input class="form__radio-input" type="radio" id="program" name="program" value="Не знаю (Нужен ваш совет)">
+            <label class="form__radio-label" for="program">Не знаю (Нужен ваш совет)</label>
+          </div>
         </div>
       </fieldset>
       <fieldset class="form__fieldset form-contacts">
@@ -97,44 +109,44 @@
           <h2 class="visually-hidden">Контакты</h2>
           <p class="contacts__text">приглашаем к сотрудничеству дилеров!</p>
           <p class="contacts__address">
-            <span class="contacts__place">ул. Большая Конюшенная, д. 19/8</span>
+            ул. Большая <br>
+            Конюшенная, д. 19/8 <br>
             Санкт-Петербург
           </p>
         </div>
       </div>
       <div class="contacts__img">
-        <img src="https://via.placeholder.com/150x150" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
+        <img class="contacts__map-img" src="img/map-img.png" alt="ул. Большая Конюшенная, д. 19/8 Санкт-Петербург">
       </div>
     </section>
   </main>
   <footer class="page-footer">
     <div class="page-footer__wrapper">
       <div class="page-footer__logo">
-        <img class="page-footer__logo" src="https://via.placeholder.com/150x150" alt="Логотип">
+        <img class="page-footer__logo" src="img/footer-logo.svg" width="128" height="24" alt="Логотип">
       </div>
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
-            <a class="social__link" href="#">
-              VK
+            <a class="social__link" href="vk.com">
+              <img class="social__icon-vk" src="img/vk.svg" width="23" height="16" alt="VK">
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link" href="#">
-              Instagram
+            <a class="social__link" href="instagram.com">
+              <img class="social__icon-instagram" src="img/instagram.svg" width="16" height="16" alt="Instagram">
             </a>
           </li>
           <li class="social__item">
-            <a class="social__link" href="#">
-              Facebook
+            <a class="social__link" href="fb.com">
+              <img class="social__icon-facebook" src="img/fb.svg" width="22" height="22" alt="Facebook">
             </a>
           </li>
         </ul>
       </div>
       <div class="page-footer__copyright copyright">
-        <a class="copyright__link" href="https://htmlacademy.ru/courses#fe-trainee">
-          HTML Academy <img src="https://via.placeholder.com/150x150" alt="Логотип HTML Academy">
-        </a>
+        <a class="copyright__link" href="https://htmlacademy.ru/courses#fe-trainee">HTML Academy</a>
+        <img class="copyright__icon" src="img/copyright.svg" width="27" height="34" alt="Логотип HTML Academy">
       </div>
     </div>
   </footer>
