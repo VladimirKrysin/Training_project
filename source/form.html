@@ -71,14 +71,20 @@
       <fieldset class="form__fieldset form-contacts">
         <legend class="form__legend">Контактные данные (владельца кота)</legend>
         <div class="form-contacts__fields">
-          <label class="form__label" for="mail">E-mail:*</label>
-          <input class="form__input" type="email" id="mail" name="mail" placeholder="кuklachev@gmail.com" required>
-          <label class="form__label" for="tel">Телефон:*</label>
-          <input class="form__input" type="tel" id="tel" name="tel" placeholder="8 (960) 900-60-90" required>
+          <div class="form__group">
+            <label class="form__label" for="mail">E-mail:*</label>
+            <img class="form__icon" src="img/icon_email.svg" alt="Электронная почта">
+            <input class="form__input" type="email" id="mail" name="mail" placeholder="кuklachev@gmail.com" required>
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="tel">Телефон:*</label>
+            <img class="form__icon" src="img/phone.svg" alt="Телефон">
+            <input class="form__input" type="tel" id="tel" name="tel" placeholder="8 (960) 900-60-90" required>
+          </div>
         </div>
       </fieldset>
       <fieldset class="form__fieldset form-comments">
-        <legend class="form__legend">Комментарий</legend>
+        <legend class="form__legend form__legend--comments">Комментарий</legend>
         <div class="form-comments__fields">
           <label class="form__label" for="comments"></label>
           <textarea class="form__textarea" name="comments" id="comments" cols="30" rows="10"
@@ -86,16 +92,24 @@
         </div>
       </fieldset>
       <fieldset class="form__fieldset form-additional">
-        <legend class="form__legend">Дополнительно</legend>
+        <legend class="form__legend form__legend--additional">Дополнительно</legend>
         <div class="form-additional__fields">
-          <label class="form__label" for="sweetener">Cахарозаменитель</label>
-          <input class="form__input" type="checkbox" id="sweetener" name="sweetener" value="sweetener">
-          <label class="form__label" for="water">Питьевая вода</label>
-          <input class="form__input" type="checkbox" id="water" name="water" value="water">
-          <label class="form__label" for="milk">Молоко</label>
-          <input class="form__input" type="checkbox" id="milk" name="milk" value="milk">
-          <label class="form__label" for="vitamins">Витамины</label>
-          <input class="form__input" type="checkbox" id="vitamins" name="vitamins" value="vitamins">
+          <div class="form__group">
+            <input class="form__input" type="checkbox" id="sweetener" name="sweetener" value="sweetener">
+            <label class="form__label" for="sweetener">Cахарозаменитель</label>
+          </div>
+          <div class="form__group">
+            <input class="form__input" type="checkbox" id="water" name="water" value="water">
+            <label class="form__label" for="water">Питьевая вода</label>
+          </div>
+          <div class="form__group">
+            <input class="form__input" type="checkbox" id="milk" name="milk" value="milk">
+            <label class="form__label" for="milk">Молоко</label>
+          </div>
+          <div class="form__group">
+            <input class="form__input" type="checkbox" id="vitamins" name="vitamins" value="vitamins">
+            <label class="form__label" for="vitamins">Витамины</label>
+          </div>
         </div>
       </fieldset>
       <div class="form__submit">
